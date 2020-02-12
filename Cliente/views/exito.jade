@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Pedido exitoso
+    body
+        div(style="text-align: center;")
+            if Cod != null
+                h1(style="text-align: center;") #{mensaje}
+                h3 Pedido: #{pedido}
+                h3 Repartidor: #{Cod} - #{Name}
+                
+            else
+                h1(style="text-align: center;") #{mensaje}
+                h3 Pedido: error
+                h3 Repartidor: error - error
+            a(href="/") Regresar
