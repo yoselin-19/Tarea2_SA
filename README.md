@@ -13,6 +13,9 @@ Con las siguientes acciones:
 
 # Servicios
 ---
+## ESB
+Se cuenta con un ESB que sirve como orquestador de servicios, dicho orquestador corre en el puerto 9000, el cual sirve para administrar la logica de comunicacion con todos los servicios.
+
 ## Funciones del Cliente
 El servidor del cliente corre sobre el puerto 3000.
 ### Listar platillos
