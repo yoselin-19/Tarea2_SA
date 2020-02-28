@@ -1,4 +1,4 @@
-# Tarea2_SA
+# Tarea4_SA
 ## Coreografia de servicios
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
@@ -10,6 +10,9 @@ Con las siguientes acciones:
   1. Solicitud de comida por parte del cliente
   2. Recepción de órdenes en el restaurante
   3. Servicio de entrega por el repartidor
+
+# Lenguaje utilizado
+- nodejs(v10.16.3 con express 4.17.1)
 
 # Servicios
 ---
