@@ -1,7 +1,7 @@
 {
-  "name": "cliente",
+  "name": "orquestador",
   "version": "1.0.0",
-  "description": "aplicacion de un cliente para solicitar un pedido (comida)",
+  "description": "Orquestador de servicios, coordena las llamadas",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,6 @@
     "express": "^4.17.1",
     "gulp": "^4.0.2",
     "gulp-zip": "^5.0.1",
-    "jade": "^1.11.0",
     "nodemon": "^2.0.2",
     "request": "^2.88.2"
   }

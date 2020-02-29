@@ -19,7 +19,7 @@ app.set("view engine", "jade");
  */
 app.get('/', function (req, res) {
     let options = {
-        url: 'http://localhost:5000/platillos_json'
+        url: 'http://localhost:9000/platillos_json'
     };
 
     // Haciendo peticion get
@@ -49,7 +49,7 @@ app.post('/make_pedido', function (req, res) {
 
     // campos que se enviaran para hacer el post
     let options = {
-        url: 'http://localhost:5000/pedido',
+        url: 'http://localhost:9000/pedido',
         json: true,
         body: {
             orden: pedido

@@ -1,4 +1,4 @@
-# Tarea2_SA
+# Tarea4_SA
 ## Coreografia de servicios
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
@@ -11,8 +11,14 @@ Con las siguientes acciones:
   2. Recepción de órdenes en el restaurante
   3. Servicio de entrega por el repartidor
 
+# Lenguaje utilizado
+- nodejs(v10.16.3 con express 4.17.1)
+
 # Servicios
 ---
+## ESB
+Se cuenta con un ESB que sirve como orquestador de servicios, dicho orquestador corre en el puerto 9000, el cual sirve para administrar la logica de comunicacion con todos los servicios.
+
 ## Funciones del Cliente
 El servidor del cliente corre sobre el puerto 3000.
 ### Listar platillos

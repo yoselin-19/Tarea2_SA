@@ -2,16 +2,18 @@
   "name": "restaurante_cliente_server",
   "version": "1.0.0",
   "description": "cliente servidor, es un restaurante que recibe pedidos y solicita repartidores",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon src/index.js"
   },
   "author": "yoseanne",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-zip": "^5.0.1",
     "jade": "^1.11.0",
     "nodemon": "^2.0.2",
     "request": "^2.88.2"

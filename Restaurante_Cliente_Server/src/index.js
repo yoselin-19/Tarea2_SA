@@ -43,7 +43,7 @@ app.post('/pedido', function (req, res) {
     let pedido_recibido = req.body.orden
 
     // Haciendo peticion get al servidor de Repartidores
-    request.get('http://localhost:4000/repartidor_json', function (err, res_, body) {
+    request.get('http://localhost:9000/repartidor_json', function (err, res_, body) {
         if (err) {
             valores_retornar = {
                 mensaje: 'Ocurrio un error, no se pudo realizar el pedido',
