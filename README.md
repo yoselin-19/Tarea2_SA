@@ -14,6 +14,18 @@ Con las siguientes acciones:
 # Lenguaje utilizado
 - nodejs(v10.16.3 con express 4.17.1)
 
+# Constructor de artefactos
+- **Gulp**
+Gulp es el artefacto que se utilizó para empaquetar los servicios.
+Para utilizarlo se necesita crear un archivo con el nombre ***gulpfile.js***, e instalar gulp y gulp-zip.
+
+Run artefacto:
+```
+gulp Nombre_tarea
+example:
+gulp zip_cliente
+```
+
 # Servicios
 ---
 ## ESB
