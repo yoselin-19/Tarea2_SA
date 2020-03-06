@@ -23,7 +23,7 @@ const Pagina_de_download = function (cb) {
   <a download="Restaurante.zip" href="Restaurante.zip"> Download Zip Restaurante</a> <br>
   <a download="Orquestador.zip" href="Orquestador.zip"> Download Zip Orquestador</a> <br>
   `
-  fs.writeFile('./dist/home.html', contenido, cb);
+  fs.writeFile('./dist/index.html', contenido, cb);
 };
 
 // Crear task que hara el ZIP del servicio
