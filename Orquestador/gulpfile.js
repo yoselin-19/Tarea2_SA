@@ -1,6 +1,6 @@
 // importaciones
-const gulp = require('gulp');
-zip = require('gulp-zip');
+var gulp = require('gulp');
+var zip = require('gulp-zip');
 Cliente = require('../Cliente/gulpfile');
 Repartidor = require('../Repartidor_Server/gulpfile');
 Restaurante = require('../Restaurante_Cliente_Server/gulpfile');
@@ -36,7 +36,8 @@ gulp.task('listado_zips', Pagina_de_download);
 
 // Tarea por defecto, creo una serie, con esto ya solo ejecuto el comando: gulp
 gulp.task('All', gulp.series(
-                                    'zip_orquestador', 'listado_zips'
-                                ));
+                              'zip_orquestador', 'zip_cliente', 
+                              'zip_repartidor', 'zip_restaurante', 'listado_zips'
+                            ));
 
 module.exports.Task_Orquestador = this.Task_Orquestador;
