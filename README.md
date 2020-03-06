@@ -1,7 +1,9 @@
-# Tarea4_SA
+# Tarea5_SA
 ## Coreografia de servicios
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b678cdf9-7485-4647-bf07-0a0d4faeaf82/deploy-status)](https://app.netlify.com/sites/youthful-leakey-5d4133/deploys)
 
 La Tarea2_SA esta compuesta por 3 programas(servicios), un cliente, un restaurante y un servidor de repartidores; con el objetivo de simular un servicio de crowdsourcing de comida a domicilio.
 
@@ -13,6 +15,18 @@ Con las siguientes acciones:
 
 # Lenguaje utilizado
 - nodejs(v10.16.3 con express 4.17.1)
+
+# Constructor de artefactos
+- **Gulp**
+Gulp es el artefacto que se utilizó para empaquetar los servicios.
+Para utilizarlo se necesita crear un archivo con el nombre ***gulpfile.js***, e instalar gulp y gulp-zip.
+
+Run artefacto:
+```
+gulp Nombre_tarea
+example:
+gulp zip_cliente
+```
 
 # Servicios
 ---
