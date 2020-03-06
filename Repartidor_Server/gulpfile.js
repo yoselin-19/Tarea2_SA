@@ -13,3 +13,6 @@ gulp.task('zip_repartidor', function () {
         .pipe(zip('Repartidor.zip'))
         .pipe(gulp.dest('dist'));
 });
+
+// Tarea por defecto, creo una serie, con esto ya solo ejecuto el comando: gulp
+gulp.task('default', gulp.series('zip_repartidor'));
