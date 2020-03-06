@@ -11,7 +11,7 @@ const Fun_zip_Orquestador = function () {
     //Origen del codigo
     //Nombre del zip
     //Destino del zip
-    return gulp.src('src/*')
+    return gulp.src('../Orquestador/src/*')
         .pipe(zip('Orquestador.zip'))
         .pipe(gulp.dest('./dist'));
 };
