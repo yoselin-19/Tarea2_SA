@@ -35,7 +35,7 @@ gulp.task('listado_zips', Pagina_de_download);
 
 
 // Tarea por defecto, creo una serie, con esto ya solo ejecuto el comando: gulp
-gulp.task('default', gulp.series(
+gulp.task('All', gulp.series(
                                     'zip_orquestador', 'zip_cliente', 
                                     'zip_repartidor', 'zip_restaurante', 'listado_zips'
                                 ));
